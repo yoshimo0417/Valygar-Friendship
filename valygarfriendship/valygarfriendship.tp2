@@ -10,7 +10,7 @@ ALWAYS
 
 	/* Converts tra files to UTF-8 */
 	// No exception, everything needs to be converted
-	ACTION_DEFINE_ARRAY ValyFriendnoconvert BEGIN END
+	ACTION_DEFINE_ARRAY ValyFriendnoconvert BEGIN install END
 
 	// any tra files used in LANGUAGE need to be reloaded after UTF-8 conversion
 	ACTION_DEFINE_ARRAY ValyFriendreload BEGIN setup END
@@ -34,7 +34,7 @@ LANGUAGE ~Russian (translation by Alisia Messar, Enigma-Evilkiss and Arcanecoast
          ~valygarfriendship/translations/russian/setup.tra~
 LANGUAGE ~Chinese (translation by Merzbau)~
          ~schinese~
-         ~valygarfriendship/translations/schinese/setup.tra~		 
+         ~valygarfriendship/translations/schinese/install.tra~		 
 LANGUAGE ~Espanol (traduccion por Magis365)~
          ~spanish~
          ~valygarfriendship/translations/spanish/setup.tra~		 
